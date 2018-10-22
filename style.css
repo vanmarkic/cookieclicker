@@ -1,0 +1,101 @@
+body {
+    display: flex;
+}
+
+#output {
+    font-size: 2em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#multi {
+    border-radius: 50%;
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    transition-duration: 200ms;
+    text-align: center
+}
+
+#multi:hover {
+    box-shadow: 0 0 10px rgba(50, 50, 50, 0.5);
+    transition-duration: 20ms;
+}
+
+#multi #autoclick:active {
+    opacity: 0.9;
+    transition-duration: 100ms;
+    transform: scale(1.2);
+}
+
+#autoclick {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin: 50px;
+    transition-duration: 200ms;
+}
+
+#autoclick:hover {
+    box-shadow: 0 0 10px rgba(50, 50, 50, 0.5);
+    transition-duration: 20ms;
+}
+
+.disabled {
+    opacity: 0.3;
+}
+
+.enabled {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#bonus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    transition-duration: 200ms;
+    text-align: center
+}
+
+#bonus:hover {
+    box-shadow: 0 0 10px rgba(50, 50, 50, 0.5);
+    transition-duration: 20ms;
+}
+
+#click {
+    border-radius: 50%;
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    transition-duration: 200ms;
+}
+
+
+/* #click:hover {
+    box-shadow: 0 0 50px rgba(50, 50, 50, 0.5);
+    transition-duration: 20ms;
+} */
+
+#click:hover {
+    box-shadow: 0 0 10px rgba(50, 50, 50, 0.5);
+    transition-duration: 20ms;
+}
+
+#click:active {
+    opacity: 0.9;
+    transition-duration: 100ms;
+    transform: scale(1.2);
+}
